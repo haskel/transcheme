@@ -1,0 +1,16 @@
+{
+    "name": "haskel/transcheme",
+    "type": "library",
+    "description": "transcheme",
+    "keywords": ["serializer"],
+    "license": "MIT",
+    "require": {
+        "symfony/yaml": "~4.0",
+        "nette/php-generator": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Haskel\\Transcheme\\": "src/"
+        }
+    }
+}
